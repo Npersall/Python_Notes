@@ -44,7 +44,7 @@ yourapp/
 The structure shown in this listing allows you to group the different components of your application in a logical way. The class definitions for models are together in models.py, the route definitions are in views.py and forms are defined in forms.py (we have a whole chapter for forms later).
 
 
-### This table provides a basic rundown of the components you’ll find in most Flask applications. You’ll probably end up with a lot of other files in your repository, but these are common to most Flask applications. 
+ This table provides a basic rundown of the components you’ll find in most Flask applications. You’ll probably end up with a lot of other files in your repository, but these are common to most Flask applications. 
 
 File| Description
  ---|---
