@@ -58,7 +58,7 @@ This table provides a basic rundown of the components you’ll find in most Flas
 File| Description
  ---|---
 run.py | This is the file that is invoked to start up a development server. It gets a copy of the app from your package and runs it. This won’t be used in production, but it will see a lot of mileage in development. 
-requirements.txt | This file lists all of the Python packages that your app depends on. You may have separate files for |production and development dependencies.
+requirements.txt | This file lists all of the Python packages that your app depends on. You may have separate files for production and development dependencies.
 config.py | This file contains most of the configuration variables that your app needs.
 /instance/config.py | This file contains configuration variables that shouldn’t be in version control. This includes things like API keys and database URIs containing passwords. This also contains variables that are specific to this particular instance of your application. For example, you might have DEBUG = False in config.py, but set DEBUG = True in instance/config.py |on your local machine for development. Since this file will be read in after config.py, it will override it and set DEBUG = True.
 /yourapp/ |	This is the package that contains your application.
