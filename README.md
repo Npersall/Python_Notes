@@ -6,7 +6,10 @@ Before you can start installing or using packages in your virtual environment yo
 
 On macOS and Linux:
 
+```
 source env/bin/activate
+```
+
 On Windows:
 
 .\env\Scripts\activate
@@ -17,10 +20,8 @@ On macOS and Linux:
 ```
 which python
 .../env/bin/python
-
 ```
 On Windows:
-
 ```
 where python
 .../env/bin/python.exe
