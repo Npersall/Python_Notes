@@ -53,11 +53,11 @@ config.py | This file contains most of the configuration variables that your app
 
 This table provides a basic rundown of the components you’ll find in most Flask applications. You’ll probably end up with a lot of other files in your repository, but these are common to most Flask applications. 
 
-/instance/config.py |	This file contains configuration variables that shouldn’t be in version control. This includes things like API keys and database URIs containing passwords. This also contains variables that are specific to this particular |instance of your application. For example, you might have DEBUG = False in config.py, but set DEBUG = True in |instance/config.py |on your local machine for development. Since this file will be read in after config.py, it will override |it and set DEBUG = True. |
-|/yourapp/	This is the package that contains your application. |
-|/yourapp/__init__.py	This file initializes your application and brings together all of the various components. |
-|/yourapp/views.py	This is where the routes are defined. It may be split into a package of its own (yourapp/views/) with |related views grouped together into modules. |
-|/yourapp/models.py	This is where you define the models of your application. This may be split into several modules in the |same way as views.py. |
-|/yourapp/static/ |	This directory contains the public CSS, JavaScript, images and other files that you want to make public |via your app. It is accessible from yourapp.com/static/ by default. |
-|/yourapp/templates/ |	This is where you’ll put the Jinja2 templates for your app. |
-Blueprints
+/instance/config.py | This file contains configuration variables that shouldn’t be in version control. This includes things like API keys and database URIs containing passwords. This also contains variables that are specific to this particular instance of your application. For example, you might have DEBUG = False in config.py, but set DEBUG = True in instance/config.py |on your local machine for development. Since this file will be read in after config.py, it will override |it and set DEBUG = True. |
+/yourapp/ |	This is the package that contains your application.
+/yourapp/__init__.py | This file initializes your application and brings together all of the various components. 
+/yourapp/views.py |	This is where the routes are defined. It may be split into a package of its own (yourapp/views/) with related views grouped together into modules.
+/yourapp/models.py | This is where you define the models of your application. This may be split into several modules in the |same way as views.py.
+/yourapp/static/ |	This directory contains the public CSS, JavaScript, images and other files that you want to make public |via your app. It is accessible from yourapp.com/static/ by default.
+|/yourapp/templates/ |	This is where you’ll put the Jinja2 templates for your app.
+
