@@ -1,4 +1,4 @@
-### Flas Structure
+### Flask Structure
 Flask leaves the organization of your application up to you. This is one of the reasons I liked Flask as a beginner, but it does mean that you have to put some thought into how to structure your code. You could put your entire application in one file, or have it spread across multiple packages. There are a few organizational patterns that you can follow to make development and deployment easier.
 
 Definitions
