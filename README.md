@@ -1,4 +1,4 @@
-# Python_Notes
+# Python virturalenv
 Notes for python
 
 ## Activating a virtual environment
