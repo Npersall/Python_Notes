@@ -51,7 +51,7 @@ Markdown | Less | Pretty
 
 This table provides a basic rundown of the components you’ll find in most Flask applications. You’ll probably end up with a lot of other files in your repository, but these are common to most Flask applications. 
 
-
+---|----
 run.py	| This is the file that is invoked to start up a development server. It gets a copy of the app from your package and runs it. This won’t be used in production, but it will see a lot of mileage in development. 
 requirements.txt | This file lists all of the Python packages that your app depends on. You may have separate files for |production and development dependencies.
 config.py | This file contains most of the configuration variables that your app needs.
