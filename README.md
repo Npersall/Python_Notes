@@ -11,8 +11,10 @@ source env/bin/activate
 ```
 
 On Windows:
-
+```
 .\env\Scripts\activate
+```
+
 You can confirm you’re in the virtual environment by checking the location of your Python interpreter, it should point to the env directory.
 
 On macOS and Linux:
