@@ -59,7 +59,7 @@ config.py | This file contains most of the configuration variables that your app
 /yourapp/ |	This is the package that contains your application.
 /yourapp/__init__.py | This file initializes your application and brings together all of the various components. 
 /yourapp/views.py |	This is where the routes are defined. It may be split into a package of its own (yourapp/views/) with related views grouped together into modules.
-/yourapp/models.py | This is where you define the models of your application. This may be split into several modules in the |same way as views.py.
-/yourapp/static/ |	This directory contains the public CSS, JavaScript, images and other files that you want to make public |via your app. It is accessible from yourapp.com/static/ by default.
-|/yourapp/templates/ |	This is where you’ll put the Jinja2 templates for your app.
+/yourapp/models.py | This is where you define the models of your application. This may be split into several modules in the same way as views.py.
+/yourapp/static/ |	This directory contains the public CSS, JavaScript, images and other files that you want to make public via your app. It is accessible from yourapp.com/static/ by default.
+/yourapp/templates/ |	This is where you’ll put the Jinja2 templates for your app.
 
