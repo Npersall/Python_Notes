@@ -15,7 +15,8 @@ You can confirm you’re in the virtual environment by checking the location of 
 On macOS and Linux:
 
 ```which python
-.../env/bin/python```
+.../env/bin/python
+```
 On Windows:
 
 where python
