@@ -17,11 +17,15 @@ On macOS and Linux:
 ```
 which python
 .../env/bin/python
+
 ```
 On Windows:
 
+```
 where python
 .../env/bin/python.exe
+```
+
 As long as your virtual environment is activated pip will install packages into that specific environment and you’ll be able to import and use packages in your Python application.
 
 Leaving the virtual environment
