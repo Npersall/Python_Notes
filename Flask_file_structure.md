@@ -1,4 +1,4 @@
-### Flask Structure
+# Flask Structure
 Flask leaves the organization of your application up to you. This is one of the reasons I liked Flask as a beginner, but it does mean that you have to put some thought into how to structure your code. You could put your entire application in one file, or have it spread across multiple packages. There are a few organizational patterns that you can follow to make development and deployment easier.
 
 Definitions
@@ -10,24 +10,24 @@ Package - This refers to a Python package that contains your application’s cod
 
 Module - A module is a single Python file that can be imported by other Python files. A package is essentially multiple modules packaged together.
 
-# Note
+## Note
 
 Read more about Python modules in Python tutorial.
 That same page has a section on packages.
 Organization patterns
 Single module
 A lot of the Flask examples that you’ll come across will keep all of the code in a single file, often app.py. This is great for quick projects (like the ones used for tutorials), where you just need to serve a few routes and you’ve got less than a few hundred lines of application code.
-
+```
 app.py
 config.py
 requirements.txt
 static/
 templates/
 Application logic would sit in app.py for the example in Listing~.
-
+```
 Package
 When you’re working on a project that’s a little more complex, a single module can get messy. You’ll need to define classes for models and forms, and they’ll get mixed in with the code for your routes and configuration. All of this can frustrate development. To solve this problem, we can factor out the different components of our app into a group of inter-connected modules — a package.
-
+```
 config.py
 requirements.txt
 run.py
@@ -40,6 +40,7 @@ yourapp/
     forms.py
     static/
     templates/
+```
 The structure shown in this listing allows you to group the different components of your application in a logical way. The class definitions for models are together in models.py, the route definitions are in views.py and forms are defined in forms.py (we have a whole chapter for forms later).
 
 This table provides a basic rundown of the components you’ll find in most Flask applications. You’ll probably end up with a lot of other files in your repository, but these are common to most Flask applications.
