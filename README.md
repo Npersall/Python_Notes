@@ -1,4 +1,4 @@
-# Python virturalenv
+# Python Virtual Environment
 Notes for python
 
 ## Activating a virtual environment
